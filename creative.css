@@ -1,0 +1,46 @@
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar-brand {
+  font-size: 1.8em;
+}
+
+#homePage {
+  background-image: url("images/homepage-background-image.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+
+#homePage h1 {
+  margin-top: 190px;
+  color: white;
+  font-size: 5em;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.centered {
+  text-align: center;
+}
+
+#separatingLine {
+  font-size: 5em;
+  margin-top: -70px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+#welcomeParagraph {
+  color: #DBDBDB;
+}
+
+.btn-custom {
+    background-color: #FFFFFF;
+    border-color: #FFFFFF;
+    color: #222222;
+    font-weight: bold;
+}
