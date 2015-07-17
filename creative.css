@@ -9,7 +9,6 @@ p {
 #homePage {
   background-image: url("images/homepage-background-image.jpg");
   background-size: cover;
-  background-position: center;
   width: 100%;
 }
 
@@ -43,4 +42,29 @@ p {
     border-color: #FFFFFF;
     color: #222222;
     font-weight: bold;
+}
+
+.circleImage {
+  width: 300px;
+  border-radius: 150px;
+}
+
+.marginTopCircleImage {
+  margin-top: 180px;
+}
+
+.marginTopContent {
+  margin-top: 210px;
+}
+
+#aboutPage h1 {
+  font-size: 2.5em;
+}
+
+#aboutPage p {
+  font-size: 1.3em;
+}
+
+#marginTopAboutContent {
+
 }
