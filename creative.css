@@ -108,3 +108,12 @@ p {
   margin-top: -10px;
   text-align: center;
 }
+
+.footer {
+  text-align: center;
+}
+
+.footer li {
+  list-style-type: none;
+  margin-left: -40px;
+}
