@@ -7,11 +7,8 @@
     <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
 	  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Reference to the custom CSS file -->
     <link rel="stylesheet" type="text/css" href="creative.css" />
@@ -36,7 +33,15 @@
       <div class="collapse navbar-collapse navbar-right">
         <ul class="nav navbar-nav">
           <li class="active"><a href="#homePage">Home</a></li>
-          <li><a href="#aboutPage">About</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-epanded="false">About
+              <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#aboutPage">About</a></li>
+                <li><a href="#knowledgePage">Knowledge</a></li>
+                <li><a href="#educationPage">Education</a></li>
+              </ul>
+          </li>
           <li><a href="">Blog</a></li>
           <li><a href="">Portfolio</a></li>
           <li><a href="">Resume</a></li>
@@ -62,10 +67,10 @@
   <!-- Second container for the about page -->
   <div class="container contentContainer" id="aboutPage">
     <div class="row">
-      <div class="col-md-3 col-md-offset-1 centered marginTopCircleImage">
+      <div class="col-md-3 col-md-offset-1 centered">
         <img class="circleImage" src="images/david-image.png" />
       </div>
-      <div class="col-md-offset-1 col-md-6 marginTopContent">
+      <div class="col-md-offset-1 col-md-6">
         <h1 class="centered">Hi, I'm David!</h1>
         <p>I am a 20 year old Computer Engineering major at the University of California, Irvine. I was born in Northern California but I am
           currently living in Southern California. I enjoy watching TV shows, reading books, listening to music, and coding.
@@ -74,11 +79,11 @@
     </div>
   </div>
 
-  <!-- Third container for the skills page-->
-  <div class="container contentContainer" id="skillsPage">
+  <!-- Third container for the knowledge page-->
+  <div class="container contentContainer" id="knowledgePage">
     <div class="row">
       <div class="col-md-12">
-        <h1>Skills</h1>
+        <h1>Knowledge</h1>
         <div class="col-md-6 col-md-offset-3">
           <h2>Web Development</h2>
           <div class="progress">
@@ -169,16 +174,17 @@
         </ul>
       </div>
       <div class="col-md-12">
-        <p class="text-muted">Copyright &#169; 2015 <a href="http://www.davidtranscend.com/"><strong>www.davidtranscend.com</strong></a> - All right reserved</p>
+        <p class="text-muted">Copyright &#169; 2015 <a href="http://www.davidtranscend.com/"><strong>www.davidtranscend.com</strong></a>
+           - All rights reserved</p>
       </div>
     </div>
   </footer>
 
   <!-- Reference to jQuery -->
-  <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="js/jquery-1.11.3.min.js"></script>
 
-  <!-- Latest compiled and minified JavaScript -->
-  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.min.js"></script>
 
   <!-- Link to the toastr files -->
   <link href="toastr/toastr.css" rel="stylesheet"/>
