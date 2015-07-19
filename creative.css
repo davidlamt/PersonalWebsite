@@ -136,10 +136,26 @@ p {
   margin-top: 20px;
 }
 
-.btn:hover {
+.btn-custom:hover, .btn-customPortfolio:hover {
   background-color: #000000;
   border-color: #000000;
   color: #FFFFFF;
+}
+
+textarea {
+  height: auto;
+  resize: none;
+}
+
+.modal-footer ul {
+  position: relative;
+  float: left;
+}
+
+.modal-footer li {
+  list-style-type: none;
+  float: left;
+  margin-right: 10px;
 }
 
 .footer {
