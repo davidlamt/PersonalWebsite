@@ -44,6 +44,13 @@ p {
     font-weight: bold;
 }
 
+.btn-customPortfolio {
+  background-color: #FFFFFF;
+  border-color: #000000;
+  color: #222222;
+  font-weight: bold;
+}
+
 #aboutPage img {
   width: 300px;
   border-radius: 150px;
@@ -121,13 +128,13 @@ p {
   font-weight: bold;
 }
 
+.accordion .ui-accordion-content {
+    max-height: 200px;
+}
+
 .footer {
   text-align: center;
   background-color: #E5E5E5;
-}
-
-.accordion .ui-accordion-content {
-    max-height: 200px;
 }
 
 .footer li {
