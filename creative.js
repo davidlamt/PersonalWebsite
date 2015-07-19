@@ -1,8 +1,8 @@
-// Sets the background image's height to the window's height
+/* Sets the background image's height to the window's height */
 $(".contentContainer").css("min-height", $(window).height());
 
-// Performs smooth scrolling to an anchor on the same page
-// Found the following code online
+/* Performs smooth scrolling to an anchor on the same page */
+/*Found the following code online */
 $(function() {
   $('a[href*=#]:not([href=#])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
@@ -18,8 +18,8 @@ $(function() {
   });
 });
 
-// Performs a toast when the page is loaded
-// Found the following code online
+/* Performs a toast when the page is loaded */
+/* Found the following code online */
 toastr.options = {
   "closeButton": true,
   "debug": false,
@@ -39,4 +39,10 @@ toastr.options = {
 }
 $(window).load(function () {
   toastr.info('Hi there!<br />This site is still under construction.')
+});
+
+/* jQuery accordion set to closed by default */
+$(".accordion").accordion( {
+  active: false,
+  collapsible: true
 });

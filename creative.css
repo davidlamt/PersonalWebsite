@@ -103,8 +103,27 @@ p {
   text-align: center;
 }
 
+#educationPage h1 {
+  margin-top: 70px;
+  margin-bottom: -10px;
+  font-size: 3em;
+  text-align: center;
+}
+
+#educationPage h2 {
+  text-align: center;
+  margin-bottom: -10px;
+}
+
+#educationPage h3 {
+  font-size: 1.4em;
+  margin-bottom: -2px;
+  font-weight: bold;
+}
+
 .footer {
   text-align: center;
+  background-color: #E5E5E5;
 }
 
 .footer li {
