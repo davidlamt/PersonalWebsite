@@ -1,3 +1,6 @@
+<!-- Reference to the custom PHP file -->
+<?php include("creative.php"); ?>
+
 <!doctype html>
 <html>
 <head>
@@ -61,18 +64,28 @@
         </div>
         <div class="modal-body">
           <p>Questions, comments, inquiries? Send me an email and I'll get back to you as soon as possible!</p>
-          <form method="POST">
+          <div class="formWarning alert alert-success centered" id="submitSuccess">Thank you!</div>
+          <div class="formWarning alert alert-danger centered" id="submitFail">Your email could not be sent. Please try again.</div>
+          <form method="POST" class="emailForm">
             <div class="form-group">
-              <input type="text" name="name" class="form-control" placeholder="Name" />
+              <input type="text" name="name" class="form-control nameInput textInput" placeholder="Name" />
+              <span class="formWarning alert alert-danger" id="warningName">Please enter your name</span>
             </div>
             <div class="form-group">
-              <input type="text" name="email" class="form-control" placeholder="Email" />
+              <input type="email" name="email" class="form-control emailInput textInput" placeholder="Email" />
+              <span class="formWarning alert alert-danger" id="warningEmail">Please enter a valid email address</span>
             </div>
             <div class="form-group">
-              <input type="text" name="subject" class="form-control" placeholder="Subject" />
+              <input type="text" name="subject" class="form-control subjectInput textInput" placeholder="Subject" />
+              <span class="formWarning alert alert-danger" id="warningSubject">Please enter your subject</span>
             </div>
             <div class="form-group">
-              <textarea name="message" class="form-control" placeholder="Message" rows="5"></textarea>
+              <textarea name="message" class="form-control messageInput textInput" placeholder="Message" rows="5" ></textarea>
+              <span class="formWarning alert alert-danger" id="warningMessage">Please enter your message</span>
+            </div>
+            <div class="centered">
+              <!-- <input type="submit" name="submit" class="btn btn-success" value="Submit" /> -->
+              <button name="submit" class="btn btn-success" id="myFormSubmit" value="Submit" />Send Email</button>
             </div>
           </form>
         </div>
@@ -81,7 +94,6 @@
             <li><a href="https://github.com/davidlamt" target="_blank">GitHub</a></li>
             <li><a href="https://twitter.com/davidlamt" target="_blank">Twitter</a></li>
           </ul>
-          <button class="btn btn-success">Send Email</button>
           <button class="btn btn-default" data-dismiss="modal">Close</button>
         </div>
       </div>

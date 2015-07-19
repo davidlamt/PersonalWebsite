@@ -147,6 +147,11 @@ textarea {
   resize: none;
 }
 
+.formWarning {
+  padding: 2px;
+  display: none;
+}
+
 .modal-footer ul {
   position: relative;
   float: left;
@@ -155,7 +160,7 @@ textarea {
 .modal-footer li {
   list-style-type: none;
   float: left;
-  margin-right: 10px;
+  margin-right: 5px;
 }
 
 .footer {
