@@ -132,6 +132,16 @@ p {
     max-height: 200px;
 }
 
+.moreButton {
+  margin-top: 20px;
+}
+
+.btn:hover {
+  background-color: #000000;
+  border-color: #000000;
+  color: #FFFFFF;
+}
+
 .footer {
   text-align: center;
   background-color: #E5E5E5;
