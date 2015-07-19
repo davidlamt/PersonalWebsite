@@ -1,3 +1,4 @@
+/* Mostly for index.php */
 p {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -171,4 +172,9 @@ textarea {
 .footer li {
   list-style-type: none;
   margin-left: -40px;
+}
+
+/* Mostly for portfolio.php */
+#webDevPage h1 {
+  margin-top: 70px;
 }

@@ -46,7 +46,7 @@
               </ul>
           </li>
           <li><a href="">Blog</a></li>
-          <li><a href="">Portfolio</a></li>
+          <li><a href="portfolio.php">Portfolio</a></li>
           <li><a href="">Resume</a></li>
           <li><a href="#" data-toggle="modal" data-target="#contactModal">Contact</a></li>
         </ul>
@@ -298,7 +298,7 @@
           <p>Currently Enrolled</p>
       </div>
       <div class="col-md-3 col-md-offset-2 centered moreButton">
-        <a href="" class="btn btn-customPortfolio btn-lg centered" id="firstPortfolioButton">View My Portfolio</a>
+        <a href="http://davidtranscend.com/portfolio.php" class="btn btn-customPortfolio btn-lg centered" id="firstPortfolioButton">View My Portfolio</a>
       </div>
       <div class="col-md-3 col-md-offset-2 centered moreButton">
         <a href="" class="btn btn-customPortfolio btn-lg centered" id="secondPortfolioButton">View My Resume</a>
@@ -317,7 +317,7 @@
           <li><a href="">Blog</a></li>
           <li><a href="">Portfolio</a></li>
           <li><a href="">Resume</a></li>
-          <li><a href="">Contact</a></li>
+          <li><a href="#" data-toggle="modal" data-target="#contactModal">Contact</a></li>
         </ul>
       </div>
       <div class="col-md-3 col-md-offset-2">
