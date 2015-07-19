@@ -1,0 +1,57 @@
+/*
+ * File: styles.css
+ * Author: David Tran
+ * References: Rob Percival from Udemy
+ * https://www.udemy.com/complete-web-developer-course/
+*/
+
+body {
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+#entireBackground {
+  width: 900px;
+  height: 526px;
+  background-color: red;
+  background-image: url("Images/forestimage.png");
+  /* Image taken from http://turbo740.deviantart.com/art/Forest-Background-329831820 */
+  position: absolute;
+  background-repeat: no-repeat;
+}
+
+#target {
+  width: 120px;
+  height: 187px;
+  background-image: url("Images/targetimage.png");
+  /* Image taken from http://mnprogressiveproject.com/stand-your-ground-a-white-privilege-hunting-license/ */
+  position: absolute;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: none;
+}
+
+#description {
+  width: 350px;
+  height: 180px;
+  position: relative;
+  float: right;
+}
+
+#description h1 {
+  padding-left: 55px;
+}
+
+#score {
+  color: grey;
+  position: absolute;
+  margin-left: 915px;
+  margin-top: 200px;
+}
+
+#averagescore {
+  color: grey;
+  position: absolute;
+  margin-left: 915px;
+  margin-top: 225px;
+}

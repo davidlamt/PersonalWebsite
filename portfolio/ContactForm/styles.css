@@ -1,0 +1,19 @@
+.emailForm {
+  border: 1px solid grey;
+  border-radius: 10px;
+  margin-top: 20px;
+  background-image: url(images/background-image.jpeg);
+  background-size: cover;
+}
+
+textarea {
+  height: 200px;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+textarea {
+  resize: none;
+}

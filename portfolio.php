@@ -130,6 +130,58 @@
           </div>
         </div>
       </div>
+      <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+          <img src="images/myapp-preview.png" alt="">
+          <div class="caption">
+            <h3>MyApp</h3>
+            <p>An application landing page.</p>
+            <p class="centered">
+              <a href="http://davidtranscend.com/portfolio/MyApp" class="btn btn-primary" role="button" target="_blank">View Project</a>
+              <a href="https://github.com/davidlamt/MyApp" class="btn btn-default" role="button" target="_blank">View Source Code</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+          <img src="images/contactform-preview.png" alt="">
+          <div class="caption">
+            <h3>Contact Form</h3>
+            <p>A simple contact form.</p>
+            <p class="centered">
+              <a href="http://davidtranscend.com/portfolio/ContactForm" class="btn btn-primary" role="button" target="_blank">View Project</a>
+              <a href="https://github.com/davidlamt/ContactForm" class="btn btn-default" role="button" target="_blank">View Source Code</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+          <img src="images/weatherpredictor-preview.png" alt="">
+          <div class="caption">
+            <h3>Weather Predictor</h3>
+            <p>A weather predictor application.</p>
+            <p class="centered">
+              <a href="http://davidtranscend.com/portfolio/WeatherPredictor" class="btn btn-primary" role="button" target="_blank">View Project</a>
+              <a href="https://github.com/davidlamt/WeatherPredictor" class="btn btn-default" role="button" target="_blank">View Source Code</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+          <img src="images/secretdiary-preview.png" alt="">
+          <div class="caption">
+            <h3>Secret Diary</h3>
+            <p>A diary application that saves users' entries.</p>
+            <p class="centered">
+              <a href="http://davidtranscend.com/portfolio/SecretDiary" class="btn btn-primary" role="button" target="_blank">View Project</a>
+              <a href="https://github.com/davidlamt/SecretDiary" class="btn btn-default" role="button" target="_blank">View Source Code</a>
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 

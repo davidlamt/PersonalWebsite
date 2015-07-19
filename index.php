@@ -46,7 +46,7 @@
               </ul>
           </li>
           <li><a href="">Blog</a></li>
-          <li><a href="portfolio.php">Portfolio</a></li>
+          <li><a href="http://davidtranscend.com/portfolio.php">Portfolio</a></li>
           <li><a href="">Resume</a></li>
           <li><a href="#" data-toggle="modal" data-target="#contactModal">Contact</a></li>
         </ul>
@@ -315,7 +315,7 @@
           <li><a href="#homePage">Home</a></li>
           <li><a href="#aboutPage">About</a></li>
           <li><a href="">Blog</a></li>
-          <li><a href="">Portfolio</a></li>
+          <li><a href="http://davidtranscend.com/portfolio.php">Portfolio</a></li>
           <li><a href="">Resume</a></li>
           <li><a href="#" data-toggle="modal" data-target="#contactModal">Contact</a></li>
         </ul>
