@@ -41,7 +41,7 @@ $(window).load(function () {
   toastr.info('Hi there!<br />This site is still under construction.')
 });
 
-/* jQuery accordion set to closed by default */
+/* jQuery accordion set to closed by default*/
 $(".accordion").accordion( {
   active: false,
   collapsible: true

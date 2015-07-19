@@ -126,6 +126,10 @@ p {
   background-color: #E5E5E5;
 }
 
+.accordion .ui-accordion-content {
+    max-height: 200px;
+}
+
 .footer li {
   list-style-type: none;
   margin-left: -40px;
