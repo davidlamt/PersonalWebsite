@@ -182,6 +182,19 @@
           </div>
         </div>
       </div>
+      <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+          <img src="images/postcodefinder-preview-image.png" alt="">
+          <div class="caption">
+            <h3>Postcode Finder</h3>
+            <p>A postcode determining application.</p>
+            <p class="centered">
+              <a href="http://davidtranscend.com/portfolio/PostcodeFinder" class="btn btn-primary" role="button" target="_blank">View Project</a>
+              <a href="https://github.com/davidlamt/PostcodeFinder" class="btn btn-default" role="button" target="_blank">View Source Code</a>
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 
