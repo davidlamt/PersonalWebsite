@@ -1,0 +1,148 @@
+<!--- File: index.html --->
+<!--- Author: David Tran --->
+<!--- References: Rob Percival from Udemy --->
+<!--- https://www.udemy.com/complete-web-developer-course/ --->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>MyApp</title>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Reference to the Bootstrap file -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!--- Reference to the CSS --->
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+
+  </head>
+  <body data-spy="scroll" data-target=".navbar-collapse">
+
+    <!--- The navigation bar --->
+    <div class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="" class="navbar-brand">MyApp</a>
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle Navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#download">Download The App</a></li>
+          </ul>
+          <form class="navbar-form navbar-right">
+            <div class="form-group">
+              <input type="email" placeholder="Email" class="form-control" />
+            </div>
+            <div class="form-group">
+              <input type="password" placeholder="Password" class="form-control" />
+            </div>
+            <button type="submit" class="btn btn-success">Log In</button>
+            <!-- <button type="button" class="btn btn-info" data-toggle="modal" data-target="#infoModal">More Info</button> -->
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!--- Modal for more information on the page --->
+    <!--
+    <div class="modal" id="infoModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button class="close" data-dismiss="modal">x</button>
+            <h4 class="modal-title">MyApp Information</h4>
+          </div>
+          <div class="modal-body">
+            This is an example landing page for one's application. This page was created as part of Rob Percival's
+              "The Complete Web Developer Course - Build 14 Websites" course.
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-success">View Source Code</button>
+            <button class="btn btn-info">View Personal Website</button>
+            <button class="btn btn-warning">View Course</button>
+            <button class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    -->
+
+    <!--- First container for brief summary --->
+    <div class="container contentContainer" id="home">
+      <div class="row">
+        <div class="col-md-6 col-md-offset-3" id="topRow">
+          <h1 class="marginTop">My Awesome App</h1>
+          <p class="lead">This is why you should download this fantastic app.</p>
+          <p>Some more information about the app. You can go into a little more detail here if you want to.</p>
+          <p class="bold marginTop">Interested? Join our mailing list!</p>
+          <form class="marginTop">
+            <div class="input-group">
+              <span class="input-group-addon">@</span>
+              <input type="email" class="form-control" placeholder="Your Email" />
+            </div>
+            <input type="submit" class="btn btn-success btn-lg marginTop" />
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!--- Second container for more details --->
+    <div class="container contentContainer" id="about">
+      <div class="row centered">
+        <h1 class="title">Why This App Is Awesome!</h1>
+        <p class="lead center">Summary of the app's awesomeness</p>
+      </div>
+      <div class="row marginBottom">
+        <div class="col-md-4 marginTop">
+          <h2><span class="glyphicon glyphicon-music"> Header</span></h2>
+          <p>A brief description of one of the best features of your app. Maybe a little more text.
+            A brief description of one of the best features of your app. Maybe a little more text.</p>
+          <button class="btn btn-success marginTop">Sign Up!</button>
+        </div>
+        <div class="col-md-4 marginTop">
+          <h2><span class="glyphicon glyphicon-off"> Header</span></h2>
+          <p>A brief description of one of the best features of your app. Maybe a little more text.
+            A brief description of one of the best features of your app. Maybe a little more text.</p>
+          <button class="btn btn-success marginTop">Sign Up!</button>
+        </div>
+        <div class="col-md-4 marginTop">
+          <h2><span class="glyphicon glyphicon-pencil"> Header</span></h2>
+          <p>A brief description of one of the best features of your app. Maybe a little more text.
+            A brief description of one of the best features of your app. Maybe a little more text.</p>
+          <button class="btn btn-success marginTop">Sign Up!</button>
+        </div>
+      </div>
+    </div>
+
+    <!--- Third container for the download section --->
+    <div class="container contentContainer" id="download">
+      <div class="row">
+        <h1 class="centered title">Download The App!</h1>
+        <p class="lead centered">Really, it's a fantastic app!</p>
+        <p class="centered"><img src="images/appstore-image.png" class="appstoreimage" /></p>
+        <p class="centered"><img src="images/androidstore-image.png" class="appstoreimage" /></p>
+      </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Reference to the JavaScript file -->
+    <script type="text/javascript" src="scripts.js"></script>
+
+  </body>
+</html>
