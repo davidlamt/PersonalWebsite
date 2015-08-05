@@ -7,8 +7,11 @@
     <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
 	  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
 
     <!-- Reference to the custom CSS file -->
     <link rel="stylesheet" type="text/css" href="creative.css" />
@@ -195,6 +198,45 @@
           </div>
         </div>
       </div>
+      <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+          <img src="images/hashit-preview.png" alt="">
+          <div class="caption">
+            <h3>Hash It</h3>
+            <p>A hash value determining application.</p>
+            <p class="centered">
+              <a href="http://davidtranscend.com/portfolio/HashIt/" class="btn btn-primary" role="button" target="_blank">View Project</a>
+              <a href="https://github.com/davidlamt/HashIt" class="btn btn-default" role="button" target="_blank">View Source Code</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+          <img src="images/instructionalapp-preview.png" alt="">
+          <div class="caption">
+            <h3>Instructional App</h3>
+            <p>A template for an instructional application.</p>
+            <p class="centered">
+              <a href="http://davidtranscend.com/portfolio/InstructionalApp" class="btn btn-primary" role="button" target="_blank">View Project</a>
+              <a href="https://github.com/davidlamt/InstructionalApp" class="btn btn-default" role="button" target="_blank">View Source Code</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+          <img src="images/sketchit-preview.png" alt="">
+          <div class="caption">
+            <h3>Sketch It</h3>
+            <p>A simple drawing application.</p>
+            <p class="centered">
+              <a href="http://davidtranscend.com/portfolio/SketchIt/" class="btn btn-primary" role="button" target="_blank">View Project</a>
+              <a href="https://github.com/davidlamt/SketchIt" class="btn btn-default" role="button" target="_blank">View Source Code</a>
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 
@@ -226,8 +268,11 @@
     </div>
   </footer>
 
-  <!-- Reference to jQuery -->
-  <script src="js/jquery-1.11.3.min.js"></script>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
   <!-- jQuery UI -->
   <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
